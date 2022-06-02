@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+   <body>
+   
+      <form action = "/result" method = "POST">
+         <!-- 이름 -->
+         <p>Name <input type = "text" name = "Name" /></p>
+
+         <!-- 학번 -->
+         <p>Student Number <input type = "text" name = "Student Number" /></p>
+
+         <!-- 성별 -->
+         <p>Gender</p>
+         <div>
+            <input type = "radio" name = "Gender" id="Male" value="Male"  />
+            <label for="Male">Male</label>
+
+            <input type = "radio" name = "Gender" id="FeMale" value="FeMale"  />
+            <label for="FeMale">Female</label>
+         </div>
+         
+         <!-- 학과 -->
+         <p>Major <input type = "text" name = "Major" /></p>
+
+         <!-- 프로그래밍 언어 -->
+         <p>Programming Languages</p>
+         <label><input type = "checkbox" name = "Programming Languages" value="Python">Python</label>
+         <label><input type = "checkbox" name = "Programming Languages" value="Java">Java</label>
+         <label><input type = "checkbox" name = "Programming Languages" value="HTML">HTML</label>
+         <label><input type = "checkbox" name = "Programming Languages" value="C++">C++</label>
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+      
+   </body>
+</html>

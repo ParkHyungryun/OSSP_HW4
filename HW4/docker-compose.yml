@@ -1,0 +1,9 @@
+version: '3.3'
+
+services: 
+  web: 
+    image: hrmark1010/ex4:latest
+    build: .
+    ports: 
+    - "80:80"
+      
